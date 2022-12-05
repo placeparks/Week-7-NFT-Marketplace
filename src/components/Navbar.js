@@ -71,11 +71,11 @@ async function connectWebsite() {
       <div className="">
         <nav className="w-screen">
           <ul className='flex items-end justify-between py-3 bg-transparent text-white pr-5'>
-          <li className='flex items-end ml-5 pb-2'>          
-            <div>
+          <li className='flex items-end ml-5 pb-2'>
+  
+        <div>
               NFT Marketplace
             </div>
-            </Link>
           </li>
           <li className='w-2/6'>
             <ul className='lg:flex justify-between font-bold mr-10 text-lg'>
