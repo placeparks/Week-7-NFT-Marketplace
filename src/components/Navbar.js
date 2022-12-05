@@ -1,5 +1,3 @@
-import logo from '../logo_3.png';
-import fullLogo from '../full_logo.png';
 import {
   BrowserRouter as Router,
   Switch,
@@ -73,10 +71,8 @@ async function connectWebsite() {
       <div className="">
         <nav className="w-screen">
           <ul className='flex items-end justify-between py-3 bg-transparent text-white pr-5'>
-          <li className='flex items-end ml-5 pb-2'>
-            <Link to="/">
-            <img src={fullLogo} alt="" width={120} height={120} className="inline-block -mt-2"/>
-            <div className='inline-block font-bold text-xl ml-2'>
+          <li className='flex items-end ml-5 pb-2'>          
+            <div>
               NFT Marketplace
             </div>
             </Link>
